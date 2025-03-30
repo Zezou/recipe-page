@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+:root {
+  --attribution-color: hsl(228, 45%, 44%);
+
+  --White: hsl(0, 0%, 100%);
+
+  --Stone100: hsl(30, 54%, 90%);
+  --Stone150: hsl(30, 18%, 87%);
+  --Stone600: hsl(30, 10%, 34%);
+  --Stone900: hsl(24, 5%, 18%);
+
+  --Brown800: hsl(14, 45%, 36%);
+
+  --Rose800: hsl(332, 51%, 32%);
+  --Rose50: hsl(330, 100%, 98%);
+}
+
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.outfit-400 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.outfit-600 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.outfit-700 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  background: var(--Stone100);
+  color: var(--Stone600);
+  font-size: 0.7rem;
+}
+ul {
+  list-style-position: outside;
+}
+li {
+  padding-left: 0.8rem;
+  padding-bottom: 0.5rem;
+}
+
+hr {
+  background-color: var(--Stone150);
+  border: none;
+  height: 1px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: var(--attribution-color);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 32rem;
+}
+
+.card {
+  background: var(--White);
+  border-radius: 0.5rem;
+  margin: 3rem 0;
+  padding: 2rem;
+}
+
+.card-img {
+  border-radius: 0.5rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1rem 0;
+}
+
+.card-info {
+  padding-bottom: 1rem;
+}
+
+.preparation {
+  background: var(--Rose50);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.preparation-title {
+  color: var(--Rose800);
+}
+.preparation-span {
+  font-weight: bold;
+}
+
+.ingredients-list,
+.instructions-list {
+  padding-left: 0.75rem;
+}
+
+.ingredients-title,
+.instructions-title,
+.nutrition-title {
+  color: var(--Brown800);
+  margin-top: 1rem;
+}
+
+.instructions-text-bold {
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 1rem;
+  cellpadding: 10px;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+thead > tr > td {
+  width: 100%;
+}
+
+tbody > tr > td {
+  border-bottom: 1px solid var(--Stone150);
+  padding: 0.5rem;
+  width: 80%;
+}
+
+.field-title {
+  padding-left: 2rem;
+}
+.stone-text {
+  color: var(--Brown800);
+  font-weight: bold;
+  padding-right: 5rem;
+}
+
+footer {
+  color: var(--attribution-color);
+  margin-top: 1rem;
+}
