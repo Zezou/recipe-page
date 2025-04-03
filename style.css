@@ -146,7 +146,7 @@ thead > tr > td {
 tbody > tr > td {
   border-bottom: 1px solid var(--Stone150);
   padding: 0.5rem;
-  width: 80%;
+  width: 60%;
 }
 
 .field-title {
@@ -155,7 +155,6 @@ tbody > tr > td {
 .stone-text {
   color: var(--Brown800);
   font-weight: bold;
-  padding-right: 5rem;
 }
 
 footer {
